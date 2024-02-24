@@ -231,6 +231,14 @@ body {
           }}
           className="w-full  border-2 border-gray-500"
         ></iframe>
+        <amp-ad
+          layout="fixed"
+          width="700"
+          height="90"
+          type="adsense"
+          data-ad-client="ca-pub-7917026221030700"
+          data-ad-slot="7244277574"
+        ></amp-ad>
       </div>
     </div>
   );
