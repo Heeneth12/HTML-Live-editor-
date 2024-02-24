@@ -22,6 +22,9 @@ const CodeEditer = () => {
         <p>If you like Live Style, please give us a like and fork the project on <a href="https://github.com/Heeneth12" target="_blank">GitHub</a>.</p>
       </div>
     </body>
+    <script>
+    /* ... (Add your Script here) ... */
+    </script>
 </html>
   `);
   const [cssCode, setCssCode] = useState(`
