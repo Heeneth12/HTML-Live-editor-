@@ -6,15 +6,17 @@ function NavBar() {
       <nav className="bg-gray-800 py-4">
         <div className="mx-auto px-4 flex items-center justify-between">
           <div className="flex items-center ml-5">
-            <img
-              src="https://p1.hiclipart.com/preview/724/587/750/browser-icon-code-icon-coding-icon-html-icon-programming-icon-web-icon-text-line-logo-sign-png-clipart.jpg"
-              style={{
-                height: "45px",
-                width: "45px",
-                borderRadius: "50%",
-              }}
-              alt="Logo"
-            />
+            <a href="/">
+              <img
+                src="https://p1.hiclipart.com/preview/724/587/750/browser-icon-code-icon-coding-icon-html-icon-programming-icon-web-icon-text-line-logo-sign-png-clipart.jpg"
+                style={{
+                  height: "45px",
+                  width: "45px",
+                  borderRadius: "50%",
+                }}
+                alt="Logo"
+              />
+            </a>
             <h1 className="font-mono text-lg font-bold text-white ml-2">
               Live Style
             </h1>

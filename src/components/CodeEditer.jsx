@@ -92,7 +92,7 @@ body {
     <div className="flex h-screen">
       {/* Left Panel (Code Editors) */}
       <div
-        className=" p-4"
+        className=" p-2"
         style={{
           width: "40%",
         }}
@@ -187,14 +187,14 @@ body {
 
       {/* Right Panel (Live Preview) */}
       <div
-        className=" p-4"
+        className=" p-2"
         style={{
           width: "100%",
           height: "90vh",
         }}
       >
         <div
-          className="flex"
+          className="flex "
           style={{
             width: "150px",
             borderRadius: "6px 6px 0 0",
