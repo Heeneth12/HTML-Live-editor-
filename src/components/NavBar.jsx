@@ -1,4 +1,5 @@
 import React from "react";
+import img from "./images/logo512.png";
 
 function NavBar() {
   return (
@@ -8,7 +9,7 @@ function NavBar() {
           <div className="flex items-center ml-5">
             <a href="/">
               <img
-                src="https://p1.hiclipart.com/preview/724/587/750/browser-icon-code-icon-coding-icon-html-icon-programming-icon-web-icon-text-line-logo-sign-png-clipart.jpg"
+                src={img}
                 style={{
                   height: "45px",
                   width: "45px",
@@ -18,7 +19,7 @@ function NavBar() {
               />
             </a>
             <h1 className="font-mono text-lg font-bold text-white ml-2">
-              Live Style
+              HTML Live editor
             </h1>
           </div>
           <amp-ad
