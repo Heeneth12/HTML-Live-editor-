@@ -8,17 +8,17 @@ function FooterBar() {
           <p>&copy; 2024 HTML live editor. All rights reserved.</p>
           <a
             className="p-4"
-            href="/Privacy-Policy"
+            href="/Privacy"
             style={{ textDecoration: "underline" }}
           >
-            Privacy & Policy
+            Privacy
           </a>
           <a
             className="p-4"
             href="/contact"
             style={{ textDecoration: "underline" }}
           >
-            Contact us
+            Contact
           </a>
         </div>
       </footer>

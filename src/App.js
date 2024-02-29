@@ -1,6 +1,7 @@
 import HomePage from "./Pages/HomePage";
-import PrivacyPolicy from "./Pages/PrivacyPolicy";
-import ContactUs from "./Pages/ContactUs";
+import Contact from "./Pages/Contact";
+import Privacy from "./Pages/Privacy";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="Privacy-Policy" element={<PrivacyPolicy />} />
-          <Route path="contact" element={<ContactUs />} />
+          <Route path="Privacy" element={<Privacy />} />
+          <Route path="Contact" element={<Contact />} />
         </Routes>
       </Router>
     </>
